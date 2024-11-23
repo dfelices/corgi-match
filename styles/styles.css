@@ -73,10 +73,15 @@ button:hover{
     padding: 1rem 0;
 }
 
+.info p{
+    font-size: 1.125rem;
+}
 
 .card{
-    width: clamp(4.6875rem, 9.375rem,9.375rem);
+    width: clamp(4.6875rem, 9.375rem, 9.375rem);
     height: clamp(9.375rem, 14.0625rem, 14.0625rem);
+    /* max-width: 15%;
+    height: auto; */
     border-radius: 8px;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
     perspective: 1000px;
